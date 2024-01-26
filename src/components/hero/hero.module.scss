@@ -1,0 +1,28 @@
+.hero {
+  padding-top: 113px;
+  padding-bottom: 143px;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/img/HeroBg.png");
+  background-size: cover;
+}
+.title {
+  color: #fff;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.text {
+  color: #fff;
+  font-family: "Times New Roman";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 130%;
+  text-transform: lowercase;
+  max-width: 353px;
+  margin-bottom: 17px;
+  span {
+    text-transform: uppercase;
+  }
+}
