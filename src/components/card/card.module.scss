@@ -1,4 +1,17 @@
-.box {
+// .box {
+//   height: auto;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   gap: 10px;
+//   overflow: hidden;
+//   height: 260px;
+//   img {
+//     margin-bottom: -5px;
+//   }
+// }
+.full{
+ width: 49%;
   height: auto;
   display: flex;
   align-items: center;
@@ -6,7 +19,19 @@
   gap: 10px;
   overflow: hidden;
   height: 260px;
-  transition: all .4s ease;
+  img {
+    margin-bottom: -5px;
+  }
+}
+.small{
+ width: 32%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  overflow: hidden;
+  height: 260px;
   img {
     margin-bottom: -5px;
   }

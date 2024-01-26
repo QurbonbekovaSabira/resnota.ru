@@ -1,13 +1,14 @@
 import React from "react";
 import { Hero } from "../hero";
 import { About } from "../about";
-import { ProductCard } from "../productCard/productCard";
+import { Product } from "../product";
+
 export const Main = ({ children }) => {
   return (
     <main>
-      <Hero></Hero>     
-      <About></About>
-      <ProductCard></ProductCard>
+      <Hero />
+      <About />
+      <Product />
     </main>
   );
 };
