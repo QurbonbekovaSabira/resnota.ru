@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-image: url("../../assets/img/HeroBg.png");
   background-size: cover;
+  background-position: center;
 }
 .title {
   color: #fff;
@@ -24,5 +25,38 @@
   margin-bottom: 17px;
   span {
     text-transform: uppercase;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .title {
+    font-size: 42px;
+  }
+  .text {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .hero {
+    background-repeat: no-repeat;
+    background-image: url("../../assets/img/heroMobile_bg.png");
+  }
+  .title {
+    font-size: 22px;
+    max-width: 30%;
+    white-space: wrap;
+  }
+  .text {
+    max-width: 55%;
+    font-size: 14px;
   }
 }

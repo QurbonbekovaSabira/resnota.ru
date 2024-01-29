@@ -9,7 +9,7 @@ export const Header = () => {
     <header>
       <div id="container" className={style.header_firstBox}>
         <div className={style.logoBox}>
-          <a href="#">
+          <a href="#" className={style.img_box}>
             <img src={logo} alt="" />
           </a>
           <p className={style.text}>Колбасы и мясные деликатесы</p>
@@ -39,6 +39,10 @@ export const Header = () => {
        <form  className={style.form}>
         <input type="text" placeholder="Поиск по сайту" aria-label="Поиск по сайту" />
        </form>
+       <div className={style.button_box}>
+        <button className={style.menu_button}></button>
+        <button className={style.saerch_button}></button>
+       </div>
      </div>
       </div>
     </header>

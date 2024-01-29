@@ -17,7 +17,7 @@ export const Product = () => {
         Новинки
         </Btn>
        </div>
-       <div>
+       <div className={style.cardProduct_box}>
         {ProductData.map((item)=> <ProductCard key={item.id} {...item}/>)}
        </div>
       </div>

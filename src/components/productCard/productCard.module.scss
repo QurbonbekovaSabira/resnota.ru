@@ -1,3 +1,76 @@
 .box {
   border: 1px solid var(--eff-2-f-4, #eff2f4);
 }
+.img {
+  text-align: center;
+ justify-content: center;
+}
+.text_box {
+  padding: 20px;
+}
+.title {
+  color: var(--0-e-2149, #0e2149);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 18px;
+}
+.text {
+  color: var(--111111, #111);
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 130%; /* 19.5px */
+  margin-bottom: 11px;
+  max-width: 80%;
+}
+.price {
+  color: var(--0-e-2149, #0e2149);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.oldPrice {
+  color: var(--cfb-08-b, #d5af86);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: line-through;
+}
+.Price_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sale {
+  color: var(--White, #fff);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  padding: 5px 9px;
+  background: var(--cfb-08-b, #d5af86);
+}
+.desc {
+  color: var(--717171, #717171);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  padding: 4px 10px;
+  border: 1px solid #eff2f4;
+}
+.saleBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.btn_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
