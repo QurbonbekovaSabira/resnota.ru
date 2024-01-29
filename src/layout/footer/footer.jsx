@@ -6,7 +6,7 @@ import { AppLink } from "../../components/appLink/appLink";
 
 export const Footer = () => {
   return (
-    <footer>
+    <>
       <div className={style.footer_firstBox}>
         <div id="container" className={style.footer_firstBox_box}>
           <div className={style.text_content}>
@@ -111,6 +111,6 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
+    </>
   );
 };

@@ -5,10 +5,10 @@ import { Product } from "../product";
 
 export const Main = ({ children }) => {
   return (
-    <main>
+    <>
       <Hero />
       <About />
       <Product />
-    </main>
+    </>
   );
 };

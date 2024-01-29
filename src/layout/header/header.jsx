@@ -6,7 +6,7 @@ import card from "../../assets/icon/card.svg";
 
 export const Header = () => {
   return (
-    <header>
+    <>
       <div id="container" className={style.header_firstBox}>
         <div className={style.logoBox}>
           <a href="#" className={style.img_box}>
@@ -45,6 +45,6 @@ export const Header = () => {
        </div>
      </div>
       </div>
-    </header>
+    </>
   );
 };

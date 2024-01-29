@@ -1,14 +1,16 @@
 import { useState } from "react";
-import  "./index.scss";
-import { Header } from "./layout/header";
+import "./index.scss";
 import { Main } from "./components/main";
-import { Footer } from "./layout/footer";
+import { MainLayout } from "./layout/main-layout";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Header />
-      <Main></Main>
-      <Footer />
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<Main/>}/>
+        </Route>
+      </Routes>
     </>
   );
 }
