@@ -1,8 +1,8 @@
 import React from 'react'
 import style from "./appLink.module.scss"
-import intsagram from "../../assets/icon/instagram.svg"
-import facebook from "../../assets/icon/facebook.svg"
-import wk from "../../assets/icon/WK.svg"
+import intsagram from "../../../assets/icon/instagram.svg"
+import facebook from "../../../assets/icon/facebook.svg"
+import wk from "../../../assets/icon/WK.svg"
 
 export const AppLink = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./hero.module.scss";
-import { Btn } from "../btn";
+import { Btn } from "../../../components/btn";
 export const Hero = () => {
   return (
     <section className={style.hero}>

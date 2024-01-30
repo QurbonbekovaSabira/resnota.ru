@@ -3,7 +3,8 @@ import style from "./header.module.scss";
 import logo from "../../assets/icon/logo.svg";
 import star from "../../assets/icon/star.svg";
 import card from "../../assets/icon/card.svg";
-
+import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <>
@@ -29,21 +30,31 @@ export const Header = () => {
         </div>
       </div>
       <div className={style.header_SecondBox}>
-     <div id="container" className={style.header_SecondBox_container}>
-     <div className={style.link}>
-          <a href="#" className={style.link_text}>О ресноте</a>
-          <a href="#" className={style.link_text}> Каталог </a>
-          <a href="#" className={style.link_text}> Наши магазины </a>
-          <a href="#" className={style.link_text}> Контакты</a>
+        <div id="container" className={style.header_SecondBox_container}>
+          <div className={style.link}>
+            <Link to="/" className={style.link_text}> О ресноте </Link>
+           <Link to="/about" className={style.link_text}>Каталог</Link>
+            <a href="#" className={style.link_text}>
+            
+              Наши магазины
+            </a>
+            <a href="#" className={style.link_text}>
+            
+              Контакты
+            </a>
+          </div>
+          <form className={style.form}>
+            <input
+              type="text"
+              placeholder="Поиск по сайту"
+              aria-label="Поиск по сайту"
+            />
+          </form>
+          <div className={style.button_box}>
+            <button className={style.menu_button}></button>
+            <button className={style.saerch_button}></button>
+          </div>
         </div>
-       <form  className={style.form}>
-        <input type="text" placeholder="Поиск по сайту" aria-label="Поиск по сайту" />
-       </form>
-       <div className={style.button_box}>
-        <button className={style.menu_button}></button>
-        <button className={style.saerch_button}></button>
-       </div>
-     </div>
       </div>
     </>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import style from "./footer.module.scss";
 import logo from "../../assets/icon/logoBig.svg";
 import { Btn } from "../../components/btn";
-import { AppLink } from "../../components/appLink/appLink";
+import { AppLink } from "../../pages/home/appLink";
 
 export const Footer = () => {
   return (

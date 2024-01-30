@@ -1,7 +1,7 @@
 import React from 'react'
 import style from "./about.module.scss";
 import { Card } from "../card";
-import { Imgs } from '../data/data';
+import { Imgs } from '../../../components/data/data';
 
 export const About = () => {
   return (
