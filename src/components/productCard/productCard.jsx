@@ -11,6 +11,7 @@ export const ProductCard = ({
   desc,
   url,
 }) => {
+  console.log(price);
   return (
     <div className={style.box}>
       <div className={style.img}>

@@ -2,7 +2,9 @@ import React from "react";
 import { Btn } from "../../../components/btn";
 import style from "./product.module.scss";
 import { ProductData } from "../../../components/data/data";
-import { ProductCard } from "../../../components/productCard/productCard";
+// import { ProductCard } from "../../../components/productCard";
+// import <ProducCard></ProducCard>
+import { ProductCard } from "../../../components/productCard";
 
 export const Product = () => {
   return (
