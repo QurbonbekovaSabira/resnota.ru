@@ -2,6 +2,11 @@ import React from "react";
 import { Category } from "./category";
 import style from "./about.module.scss";
 import {Type} from "../../components/data/data";
+import { CardAbout } from "./cardAbout/cardAbout";
+
+import {ProductDate} from "../../components/data/data"
+
+
 export const About = () => {
   return (
     <section className={style.about}>
@@ -24,6 +29,8 @@ export const About = () => {
          <select className={style.select}>
             <option value="По умолчанию">По умолчанию</option>
          </select>
+         {ProductDate.map((item)=><CardAbout key={item.id} {...item}/>)}
+         
         </div>
       </div>
     </section>

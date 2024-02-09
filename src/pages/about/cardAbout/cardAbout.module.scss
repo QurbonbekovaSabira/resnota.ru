@@ -1,0 +1,113 @@
+.box {
+  border: 1px solid var(--cfb-08-b, #d5af86);
+  height: auto;
+  position: relative;
+}
+.saleDesc {
+  color: var(--White, #fff);
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 16.9px */
+  background-color: #77a43e;
+  padding: 5px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+}
+.star {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+.title {
+  color: var(--0-e-2149, #0e2149);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text {
+  color: var(--111111, #111);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; 
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+.price {
+  color: var(--0-e-2149, #0e2149);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 7px;
+}
+.oldPrice {
+  color: var(--cfb-08-b, #d5af86);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: line-through;
+}
+.sale {
+  color: var(--White, #fff);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  padding: 5px 9px 2px 6px;
+  background: #d5af86;
+}
+.econom {
+  display: block;
+  color: #717171;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  padding: 4px 10px;
+  border: 1px solid#eff2f4;
+}
+.btn_first {
+  color: var(--White, #fff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  padding: 12px 26px;
+  background-color: #0e2149;
+  border: none;
+}
+.btn_second {
+  color: var(--White, #fff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  padding: 12px 26px;
+  background-color: #d5af86;
+  border: none;
+}
+.btn_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sale_box{
+    display: flex;
+    align-items: center;
+}
+.sale_contentBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+.card_content{
+    padding: 20px;
+}
